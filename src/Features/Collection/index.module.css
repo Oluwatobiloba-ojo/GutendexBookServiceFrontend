@@ -1,0 +1,51 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bookContent{
+    width: 300px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+}
+
+.linkCont{
+    text-align: center;
+}
+
+.subjects{
+
+}
+
+.subjects > p{
+    margin: 0;
+    padding-left: 5px;
+}
+
+.language > p{
+    margin: 0;
+    padding-left: 5px;
+}
+
+.bookContent > h4{
+    margin: 0;
+    padding-left: 5px;
+}
+.bookContent > h2{
+    margin: 0;
+}
+
+
+
+.bookContent > p{
+    margin: 0;
+}

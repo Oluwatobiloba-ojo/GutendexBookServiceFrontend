@@ -1,0 +1,18 @@
+.mainDiv{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.inputDiv > input{
+    border-radius: 12px;
+    height: 25px;
+    width: 250px;
+}
+
+.mainDiv > input{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: red;
+}
