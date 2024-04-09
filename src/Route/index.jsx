@@ -1,6 +1,8 @@
 import SignUp from "../Features/SignUp";
 import Collection from "../Features/Collection";
 
+import SignIn from "../Features/SignIn";
+
 export const Route = [
     {
         path:"/signUp",
@@ -10,4 +12,8 @@ export const Route = [
       path: "/book",
       element: <Collection/>
     },
+    {
+      path: "/login",
+      element: <SignIn/>
+    }
 ]

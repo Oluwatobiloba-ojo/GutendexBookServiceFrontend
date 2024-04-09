@@ -47,6 +47,7 @@ const SignUp = ()=>{
                     axios.post(url,formData,
                         {headers:{"Content-Type": "application/json"}})
                         .then(response => {
+                            console.log(response.data["readingListId"])
                             localStorage.setItem("id", response.data["readingListId"])
                             console.log(response.data)
                         })
